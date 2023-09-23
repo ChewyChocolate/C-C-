@@ -16,7 +16,7 @@ int main(){
     second->data = 30;
     
     head->next = first;
-    first->next = head;
+    first->next = second;
     second->next = nullptr;
     
     Node* current = head;
